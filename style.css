@@ -5,3 +5,6 @@ body{
 h1{
 color: cyan;
 }
+h1 span{
+    color: red;
+}
