@@ -8,3 +8,7 @@ color: cyan;
 h1 span{
     color: red;
 }
+h2{
+    text-align: center;
+    color: white;
+}
