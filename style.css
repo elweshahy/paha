@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     background: red;
     color: cyan;
@@ -50,4 +51,19 @@ h1{
 }
 span{
     color: black;
+=======
+body{
+    background: blue;
+    color: black;
+}
+h1{
+color: cyan;
+}
+h1 span{
+    color: red;
+}
+h2{
+    text-align: center;
+    color: white;
+>>>>>>> 6b778d00647e4faa97c1bc8a135e95755d7a0837
 }
