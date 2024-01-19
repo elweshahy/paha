@@ -1,0 +1,53 @@
+body{
+    background: red;
+    color: cyan;
+}
+.settings-box{
+    position: fixed;
+    left: -200px;
+    top: 0;
+    background: rgb(9, 129, 49);
+    width: 200px;
+    min-height: 100vh;
+    margin-top: 50px; 
+    z-index: 1000;
+min-height: 100vh;
+transition: .3s;
+}
+
+.settings-box .toggles{
+    position: absolute;
+    right: -30px;
+    top: 100px;
+    background:rgb(9, 129, 49) ;
+    padding: 8px 0;
+width: 30px;
+text-align: center;
+cursor: pointer;
+}
+ .toggles .fa-sun{
+    cursor: pointer;
+}
+.settings-box.open{
+    left: 200px;
+    position: fixed;
+    top: 0;
+    background: rgb(9, 129, 49);
+    width: 200px;
+    min-height: 100vh;
+    margin-top: 50px; 
+}
+.toggles{
+    margin-left: 50px;
+}
+.mbroka.open{
+    background: cyan;
+    color: red;
+}
+h1{
+    text-align: center;
+    margin: 50px;
+}
+span{
+    color: black;
+}
