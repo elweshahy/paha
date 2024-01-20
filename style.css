@@ -45,6 +45,7 @@ cursor: pointer;
     background: cyan;
     color: red;
 }
+/*adds*/
 h1{
     text-align: center;
     margin: 50px;
@@ -53,4 +54,7 @@ span{
     color: yellow;
     text-align: center;
     padding: 20px;
+}
+h2{
+    text-align: center;
 }
