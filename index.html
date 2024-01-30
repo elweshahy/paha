@@ -1,68 +1,327 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imgs/17.jpg" />
     <title>كلام في البرمجة</title>
     <!-- Bootstrap core CSS -->
     <link href="Librarys/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="librarys/css/fontawesome-free-6.5.1-web/css/all.min.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap">
+    <link rel="stylesheet" href="Librarys/css/fontawesome-free-6.5.1-web/css/all.min.css">
+    <link rel="stylesheet" href="Librarys/css/fontawesome-free-6.5.1-web/css/all.css">
    <link rel="stylesheet" href="Librarys/css/normlize.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="librarys/css/owl.css">
-    <link rel="stylesheet" href="librarys/css/animate.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-</head>
-<body class="mbroka">
-  <div class="navbar navbar-expand-md bg-dark navbar-dark text-white fixed-top">
-    <div class="container">
-        <a href="#" class="navbar-brand">Bootstrap Tutorial</a>
-        <div class="toggles">
-          <i class="fa fa-sun"></i>
-          </div>
-        
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div  class="collapse navbar-collapse" id="mainmenu">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a href="#hero" class="nav-link">Get Started</a></li>
-                <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Learn</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#learn" class="dropdown-item">Learn Bootstrap</a></li>
-                        <li><a href="#next" class="dropdown-item">Where to go next</a></li>
-                    </ul>
-                </li>
-                <li class="nav-item"><a href="#faq" class="nav-link">Ask Me</a></li>
-                <li class="nav-item"><a href="./index-ar.html" class="nav-link">عربي</a></li>
-            </ul>
-        </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+ <body>
+   
+  <!-- ***** Preloader Start ***** -->
+  <!-- <div id="js-preloader" class="js-preloader">
+    <h1 class="ee">جاري التحميل</h1>
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </div>
-</div>
-<h1>sophy</h1>
-<!-- <div class="settings-box">
-  <div class="toggles">
-  <i class="fa fa-gear"></i>
+  </div> -->
+  <!-- ***** Preloader End ***** -->
+<!-- Start Settings Box -->
+  <div class="settings-box">
+  <div class="toggle-settings">
+   <i class="fa fa-gear"></i>
+   </div>
+   <div class="settings-container">
+    <div class="option-box">
+      <h4>Colors</h4>
+      <ul class="colors-list">
+        <li class="active" data-color="#ff9800"></li>
+        <li data-color="#E91E63"></li>
+        <li data-color="#009688"></li>
+        <li data-color="#03A9F4"></li>
+        <li data-color="#4CAF50"></li>
+         </ul>
+    </div>
+    <div class="option-box">
+      <h4>Random Backgrounds</h4>
+      <div class="random-backgrounds">
+         <span class="yes active" data-background="yes">Yes</span>
+        <span class="no" data-background="no">No</span>
+    </div>
+    </div>
+    <div class="option-box">
+      <h4>Show Bullets</h4>
+      <div class="bullets-option">
+         <span class="yes active" data-display="show">Yes</span>
+        <span class="no" data-display="hide">No</span>
+    </div>
   </div>
-  <div class="settings-container">Tast option</div>
-</div> -->
-<div class="toggles">
-  <i class="fa fa-cat"><span class="fa fa-moon"></span></i>
+    </div>
+    <button class="reset-options">Reset Options</button>
+   </div>
+</div> 
+<!-- End Settings Box -->
+
+<!-- Start Nav Bullets -->
+<div class="nav-bullets" >
+<div class="bullet" data-section=".about-us">
+  <div class="tool">About Us</div>
 </div>
-<p>sophy</p>
-<span>sophy</span>
-<h2>mohamed</h2>
+<div class="bullet" data-section=".skills">
+  <div class="tool">Our Skills</div>
+</div>
+<div class="bullet" data-section=".gallery">
+  <div class="tool">Our Gallery</div>
+</div>
+<div class="bullet" data-section=".timeline">
+  <div class="tool">Timeline</div>
+</div>
+<div class="bullet" data-section=".testimonials">
+  <div class="tool">Testimonals</div>
+</div>
+</div>
+<!-- End Nav Bullets -->
+
+ <!-- Start Landing Page -->
+ <div class="landing-page" id="so">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="header-area">
+      <div class="logo">Special Design</div>
+    <div class="lins-container">
+      <ul class="lin">
+        <li><a href="#about-us" class="active">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#s1">Testimonals</a></li>
+      </ul>
+      <button class="toggle-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+      </div>
+  </div>
+   <div class="introduction-text">
+    <h1>We Are <span>Creative</span> Agency</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit nihil ullam nesciunt quiocetur archidiate architecto iste </p>
+   </div>
+ </div>
+  <!-- End Landing Page -->
+  <!-- Start About Us -->
+ <div class="container">
+  <div class="about-us" id="about-us">
+    <div class="info-box">
+      <h2>About Us</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit nihil ullam nesciunt quiocetur archidiate architecto iste </p>
+    </div>
+    <div class="image-box">
+      <img src="imgs/about-us.jpg" alt="">
+    </div>
+  </div>
+  
+ </div>
+   <!-- End About Us -->
+   <!-- Start Our Skills -->
+ <div class="skills" id="skills">
+  <div class="container">
+      <h2>Our Skills</h2>
+      <div class="skill-box">
+        <div class="skill-name">HTML</div>
+        <div class="skill-progress">
+          <span data-progress="80%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">CSS</div>
+        <div class="skill-progress">
+          <span data-progress="70%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">JavaScript</div>
+        <div class="skill-progress">
+          <span data-progress="90%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">Python</div>
+        <div class="skill-progress">
+          <span data-progress="80%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">PhP</div>
+        <div class="skill-progress">
+          <span data-progress="90%"></span>
+        </div>
+      </div>
+      <div class="skill-box">
+        <div class="skill-name">C++</div>
+        <div class="skill-progress">
+          <span data-progress="90%"></span>
+        </div>
+      </div>
+        <div class="skill-box">
+          <div class="skill-name">MySQL</div>
+          <div class="skill-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+      
+    </div>
+ </div>
+   <!-- End Our Skills -->
+   <!-- Start Gallery -->
+   <div class="gallery" id="gallery">
+    <div class="container">
+      
+      <h2>Our Gallery</h2>
+      <div class="images-box">
+        <img src="imgs/02.jpg" alt="Image One">
+        <img src="imgs/07.jpg" alt="Image Two">
+        <img src="imgs/19.jpg" alt="Image Three">
+        <img src="imgs/21.jpg" alt="Image Four">
+        <img src="imgs/11.jpg" alt="Image Five">
+        <img src="imgs/15.jpg" alt="">
+        <img src="imgs/08.jpg" alt="">
+        <img src="imgs/04.jpg" alt="">
+        <img src="imgs/10.jpg" alt="">
+        <img src="imgs/06.jpg" alt="">
+      </div>
+    </div>
+   </div> 
+    <!-- End Gallery -->
+
+    <!-- Start Timeline -->
+    <div class="timeline" id="timeline">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2024</div>
+
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit nihil ullam nesciunt quiocetur archidiate architecto iste </p>
+            </div>
+          </div>
+         <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus odit nihil ullam nesciunt quiocetur archidiate architecto iste </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Timeline -->
+    <!-- Start Features -->
+    <div class="features" id="features">
+      <h2>Our Features</h2>
+      <div class="container">
+        <div class="feat-box">
+          <img src="imgs/12.jpg" alt="">
+          <h4>Development</h4>
+          <p>We are professional marketeers, we will do anything you imagine in no time</p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/20.jpg" alt="">
+          <h4>Development</h4>
+          <p>We are professional marketeers, we will do anything you imagine in no time</p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/14.jpg" alt="">
+          <h4>Development</h4>
+          <p>We are professional marketeers, we will do anything you imagine in no time</p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/11.jpg" alt="">
+          <h4>Development</h4>
+          <p>We are professional marketeers, we will do anything you imagine in no time</p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/21.jpg" alt="">
+          <h4>Development</h4>
+          <p>We are professional marketeers, we will do anything you imagine in no time</p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/06.jpg" alt="">
+          <h4>Development</h4>
+          <p>We are professional marketeers, we will do anything you imagine in no time</p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- End Features -->
+
+    <!-- Start Testimonials -->
+    <div class="testimonials" id="s1">
+     <div class="container">
+      <h2>Tastimonials</h2>
+      <div class="ts-box">
+        <p>We are professional marketeers, we will do anything you imagine in no time</p>
+        <div class="person-info">
+          <img src="" alt="">
+          <h4> Sophy Elweshahy</h4>
+          <p>Sonac At Company</p>
+        </div>
+      </div>
+      <div class="ts-box">
+        <p>We are professional marketeers, we will do anything you imagine in no time</p>
+        <div class="person-info">
+          <img src="" alt="">
+          <h4> Sophy Elweshahy</h4>
+          <p>Sonac At Company</p>
+        </div>
+      </div>
+      <div class="ts-box">
+        <p>We are professional marketeers, we will do anything you imagine in no time</p>
+        <div class="person-info">
+          <img src="" alt="">
+          <h4> Sophy Elweshahy</h4>
+          <p>Sonac At Company</p>
+        </div>
+      </div>
+     </div>
+     <div class="clearfix"></div>
+    </div>
+    <!-- End Testimonials -->
+<!-- Start Contact Us -->
+<div class="contact">
+  <div class="overlay"></div>
+  <div class="container">
+    <h2>Contact Us</h2>
+    <form action="">
+      <div class="left">
+       <input type="text"   placeholder="Your Name"  name="username">
+       <input type="text"   placeholder="Your Phone" name="phone">
+       <input type="email"  placeholder="Your Email" name="email">
+       <input type="text"   placeholder="Subject"    name="subject">
+      </div>
+      <div class="right">
+       <textarea name="message" placeholder="Your Message" ></textarea>
+       <input type="submit" value="send">
+      </div>
+    </form>
+    
+  </div>
+</div>
+<!-- End Contact Us -->
+
   <script src="Librarys/js/jquery.min.js"></script>
   <script src="Librarys/js/bootstrap.min.js"></script>
-
   <script src="Librarys/js/isotope.min.js"></script>
   <script src="Librarys/js/owl-carousel.js"></script>
   <script src="Librarys/js/tabs.js"></script>
@@ -71,4 +330,5 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   <script src="index.js"></script>
-</body>
+ </body>
+</html>
